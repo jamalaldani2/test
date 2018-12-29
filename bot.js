@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "W";
-
+const adminprefix = "#";
 const developers = ["461059496861630465"]//Toxic Codes
 client.on('message', message => {//Toxic Codes
     var argresult = message.content.split(` `).slice(1).join(' ');//Toxic Codes
